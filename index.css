@@ -1,0 +1,29 @@
+/* font */
+@font-face {
+    font-family: 'Font';
+    src: url('./assets//font//AssawtDecorative.ttf');
+}
+
+/* body */
+
+*{
+    font-family: 'Font', Arial, sans-serif;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.login input[placeholder]{
+    color:#14757F !important;
+}
+
+.borderBox:not(:last-child){
+    border-left: 1px solid #C0CACD;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}

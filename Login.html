@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>تسجيل الدخول</title>
+  </head>
+  <body class="flex items-center justify-center h-screen bg-[#044D5E]">
+    <div class="max-w-md w-full">
+      <!-- user name or ID  -->
+      <div class="relative border border-[#14757F] rounded-lg p-2">
+        <div>
+          <h1
+            class="text-2xl font-extrabold text-[#14757F] bg-[#3FC9E0] px-8 rounded-full text-center absolute -top-4 left-1/2 transform -translate-x-1/2"
+          >
+            تسجيل الدخول
+          </h1>
+        </div>
+        <div class="inline-block w-full mt-5">
+          <div class="flex flex-col gap-y-2">
+            <div class="flex items-center gap-x-2">
+              <i
+                class="fa-solid fa-user-large bg-[#3FC9E0] p-3 rounded-lg text-white flex items-center justify-center h-10"
+              ></i>
+              <input
+                type="text"
+                placeholder="إسم المستخدم أو رقم الهوية"
+                class="bg-white h-10 px-2 w-full rounded-lg login text-xl outline-none"
+              />
+            </div>
+
+            <div class="flex items-center gap-x-2">
+              <i
+                class="fa-solid fa-user-large bg-[#3FC9E0] p-3 rounded-lg text-white flex items-center justify-center h-10"
+              ></i>
+              <input
+                type="password"
+                placeholder=" كلمة المرور"
+                class="bg-white h-10 px-2 w-full rounded-lg login text-xl outline-none"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- nfaz -->
+      <div class="mt-4 border border-[#14757F] rounded-lg p-2">
+        <div class="flex items-center gap-x-2">
+          <span
+            class="bg-[#3FC9E0] p-3 rounded-lg text-white w-10 flex items-center justify-center h-10"
+            >نفاذ</span
+          >
+          <input
+            type="text"
+            placeholder="التسجيل عبر بوابة النفاذ الوطني "
+            class="bg-white h-10 px-2 w-full rounded-lg login text-xl outline-none"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
