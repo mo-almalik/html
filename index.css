@@ -27,3 +27,24 @@ html, body{
     justify-content: center;
    
 }
+.bg-login{
+    background-image: url('./assets/sc-1.png');
+    background-size: cover;
+    background-position: center center;
+    
+}
+.bg-enrichment {
+    background-image: url('./assets/sc-6.png');
+    background-size: cover;
+    background-position: center center;
+}
+.bg-special-education {
+    background-image: url('./assets/sc-5.png');
+    background-size: cover;
+    background-position: center center;
+}
+.bg-Innovation-research {
+    background-image: url('./assets/sc-4.png');
+    background-size: cover;
+    background-position: center center;
+}
